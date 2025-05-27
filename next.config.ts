@@ -21,7 +21,7 @@ const nextConfig: NextConfig = {
     // Required for static export if using next/image default loader with external URLs
     // or if image optimization is not available on the hosting platform.
     // For GitHub Pages, if you don't configure a custom loader, this might be needed.
-    // unoptimized: true, 
+    unoptimized: true,
   },
 };
 
